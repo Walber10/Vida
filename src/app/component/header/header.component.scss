@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+.logo-header{
+    cursor: pointer;
+}
+nav {
+    margin-top: 20px;
+}
+
+.navbar-blue {
+  a {
+    color: #282828;
+    font-weight: 600;
+    width: auto;
+    display: flex;
+    text-align: center;
+  }
+
+}
+button {
+    width: 168px;
+    height: 41px;
+    border: none;
+    background-color: rgb(225, 118, 96);
+    color: #ffff;
+    font-family: Raleway;
+  font-weight: bold;
+  display: flex;
+    justify-content: center;
+    text-align: center;
+    p {
+        margin-bottom: 0px;
+    }
+  
+
+}
+
+.image-background {
+  background-image: url ('../../../assets/background-home.png');
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: white;
+ 
+  a:hover {
+    text-decoration: 6px solid #e2cca7 underline;
+    text-underline-offset: 2px;
+  }
+
+}
+
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #2b3146;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  width: auto;
+  font-family: Raleway;
+  font-weight: bold;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login:focus, .login:hover {
+  color: black;
+  box-shadow: 0 0 21px rgb(225, 118, 96);  
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.icons {
+
+  i {
+      font-size: 20px;
+     
+      color: #E0745F;;
+  }
+
+}
+
+.mobile-version {
+ display: none;
+}
+
+@media  (max-width: 900px) {
+  .desktop-version {
+    display: none;
+  }
+  .mobile-version {
+    display: block;
+   }
+button {
+  background-color: transparent!important ;
+}
+
+.mat-button.mat-accent, .mat-icon-button.mat-accent, .mat-stroked-button.mat-accent {
+  color: #E0745F!important;
+}
+}
