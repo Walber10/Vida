@@ -68,3 +68,10 @@ section {
    }
 
 }
+
+@media (max-width: 900px) {
+    .text-main {
+        margin-top: 50px!important;
+        line-height: normal!important;
+}
+}

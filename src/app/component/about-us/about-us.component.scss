@@ -73,6 +73,11 @@ section {
     }
     
     @media(max-width:767px) {
+        section {
+            padding-right: 15px;
+            padding-left: 15px;
+
+        }
         .carousel-caption {
             position: initial;
             z-index: 10;
@@ -83,6 +88,11 @@ section {
             font-style: italic;
             font-weight: bold;
             line-height: 1.5rem
+        }
+        .text-main  {
+            h1 {
+                line-height: 55px!important;
+            }
         }
     }
     

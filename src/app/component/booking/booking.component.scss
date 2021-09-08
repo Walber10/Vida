@@ -223,3 +223,27 @@
     background-color: #fff!important;
     font-size: 50px;
 }
+
+@media (max-width: 900px) {
+	.fa-envelope-open {
+		font-size: 25px;
+		color: white;
+	}
+
+	.margin-top {
+		margin-top: 50px;
+	}
+	
+	.booking-form {
+		margin-top: 50px;
+	}
+
+	.booking-form .form-header h1 {
+	
+		font-size: 25px; 
+	
+	}
+	.footer-3 {
+		margin-top: 50px;
+	}
+}
