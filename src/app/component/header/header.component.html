@@ -69,7 +69,7 @@
           
       
             <div class="menu-hamburguer" >
-              <button mat-icon-button color="accent" aria-label="Example icon button with a menu icon" (click)=addMobile()>
+              <button mat-icon-button color="accent" aria-label="Example icon button with a menu icon" (click)=addMobile() [ngClass]= "{'branco' : togleNav}" >
                 <mat-icon>menu</mat-icon>
               </button>
             </div>

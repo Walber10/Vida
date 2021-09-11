@@ -23,7 +23,7 @@ button {
     height: 41px;
     border: none;
     background-color: rgb(225, 118, 96);
-    color: #ffff;
+    color: #FFF;
     font-family: Raleway;
   font-weight: bold;
   display: flex;
@@ -32,9 +32,13 @@ button {
     p {
         margin-bottom: 0px;
     }
-  
 
 }
+
+
+.times {
+    color:  #fff!important;
+   }
 
 .image-background {
   background-image: url ('../../../assets/background-home.png');
@@ -119,6 +123,7 @@ button {
    }
 button {
   background-color: transparent!important ;
+  color: #E0745F!important;
 }
 
 .mat-button.mat-accent, .mat-icon-button.mat-accent, .mat-stroked-button.mat-accent {
