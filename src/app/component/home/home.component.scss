@@ -20,7 +20,9 @@ section {
         }
     }
 
-  
+  .marginHome {
+    margin-top: 80px;
+  }
 
     .background-image {
         background-image: url("../../../assets/background-home.png");
@@ -305,17 +307,23 @@ i {
 
 
 @media  (max-width: 900px) {
-  section {
-    padding-left: 10px;
-    padding-right: 10px;
-
-  }
   .desktop-version {
     display: none;
   }
 
   .mobile-version {
     display: block;
+  }
+
+  .buttonsMobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
   }
 
   .text-testemonials {

@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "6393f944-312a-4151-bcb3-d00c9f6c4ec8"
+    "analytics": "a12c3395-b159-4e61-9240-adadc2c2ee99"
   },
   "version": 1,
   "newProjectRoot": "projects",
@@ -34,7 +34,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.scss",
+              "../node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -43,13 +45,13 @@
               "budgets": [
                 {
                    "type": "initial",
-                   "maximumWarning": "4mb", 
+                   "maximumWarning": "4mb",
                    "maximumError": "5mb"
                 },
                 {
                    "type": "anyComponentStyle",
-                   "maximumWarning": "160kb",
-                   "maximumError": "160kb"
+                   "maximumWarning": "250kb",
+                   "maximumError": "250kb"
                 }
              ],
               "fileReplacements": [
@@ -102,6 +104,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []

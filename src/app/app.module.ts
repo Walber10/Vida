@@ -3,50 +3,58 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AboutUsComponent } from './component/about-us/about-us.component';
-import { AboutV2Component } from './component/about-v2/about-v2.component';
-import { BookingComponent } from './component/booking/booking.component';
-import { ContactComponent } from './component/contact/contact.component';
-import { ContentComponent } from './component/content/content.component';
-import { FooterComponent } from './component/footer/footer.component';
-import { HeaderComponent } from './component/header/header.component';
 import { HomeComponent } from './component/home/home.component';
-import { LoginComponent } from './component/login/login.component';
+import { HeaderComponent } from './component/header/header.component';
+import { FooterComponent } from './component/footer/footer.component';
+import { AboutUsComponent } from './component/about-us/about-us.component';
+import { BookingComponent } from './component/booking/booking.component';
 import { StudioComponent } from './component/studio/studio.component';
-import { MoreComponent } from './component/more/more.component';
-import { MatIconModule } from '@angular/material/icon';
+import { ContactComponent } from './component/contact/contact.component';
+import { LoginComponent } from './component/login/login.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgImageSliderModule } from 'ng-image-slider';
-
-
-
-
+import { MoreComponent } from './more/more.component';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatDividerModule} from '@angular/material/divider';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutUsComponent,
-    AboutV2Component,
-    BookingComponent,
-    ContactComponent,
-    ContentComponent,
-    FooterComponent,
-    HeaderComponent,
     HomeComponent,
-    LoginComponent,
+    HeaderComponent,
+    FooterComponent,
+    AboutUsComponent,
+    BookingComponent,
     StudioComponent,
-    MoreComponent
+    ContactComponent,
+    LoginComponent,
+    MoreComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatIconModule,
+    NgbModule,
     FormsModule,
-    NgImageSliderModule
-  
+    BrowserAnimationsModule ,
+    NgImageSliderModule,
+    GoogleMapsModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatButtonModule,
+    MatIconModule,
+    MatDividerModule
+
   ],
-  
+     
+
   providers: [],
   bootstrap: [AppComponent]
 })
