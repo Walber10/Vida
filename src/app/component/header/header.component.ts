@@ -15,6 +15,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.togleNav)
   }
 
   addMobile() {
@@ -27,7 +28,7 @@ export class HeaderComponent implements OnInit {
       this.responsive = 'responsive'
       this.toggles = 'togleNav'
     }
-
+console.log(this.togleNav)
     
   }
 
