@@ -5,8 +5,8 @@ import { BookingComponent } from './component/booking/booking.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { HomeComponent } from './component/home/home.component';
 import { LoginComponent } from './component/login/login.component';
-import { MoreComponent } from './component/more/more.component';
 import { StudioComponent } from './component/studio/studio.component';
+import { MoreComponent } from './more/more.component';
 
 const routes: Routes = [
   {path:'', component: HomeComponent},
